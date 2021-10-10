@@ -40,7 +40,6 @@ while IFS= read -r line; do
 				cp ${file} ${target}
 				printf '%s/%s:%s\n' "${target}" $(basename $file) ${file} >>"$output"
 			done
-		exit
 	elif [[ -f ${source} ]]; then
 		printf 'FILE %-100s => %s\n' "${source}" "${target}"
 		cp ${source} ${target}
