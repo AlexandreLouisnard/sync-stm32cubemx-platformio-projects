@@ -40,3 +40,4 @@ NOTES:
 * Do not edit _private_sync_pio_to_cube.conf : it is generated manually by sync_cube_to_pio.sh and used as input by sync_pio_to_cube.sh.
 * Do not execute directly _private_sync.sh.
 * Regex for files extensions (.c, .h, etc.) to sync from the sync_cube_to_pio.conf folders can be edited (if needed) in _private_sync.sh.
+* Use LF line endings in conf file.
